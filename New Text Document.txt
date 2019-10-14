@@ -1,0 +1,8 @@
+<html>
+<head>
+<title>Ignore whitespace</title>
+</head>
+<body>
+All white space characters more than one including line breaks and tabs.
+</body>
+</html>
