@@ -1,0 +1,92 @@
+/* CSS Document */
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background: url(images/main-bg.gif) 0 0 repeat-x #fff;
+	color: #5F7A77;
+	font: 13px/19px Arial, Helvetical, sans-serif;
+}
+
+div, p, ul, h2, h3, h4, h5, img {
+	padding: 0px;
+	margin: 0px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.justify {
+	text-align: justify;
+}
+
+/*----TOP PANEL----*/
+
+#topPan {
+	width: 778px;
+	height: 65px;
+	background: url(images/topbg.jpg) 0 0 no-repeat #fff;
+	color: #828282;
+	position: relative;
+	margin: 0 auto;
+}
+
+	#topPan img.logo {
+		width: 136px;
+		height: 31px;
+		position: absolute;
+		top: 12px;
+		left: 235px;
+}
+
+	#topPan p.caption {
+		width: 200px;
+		background: #fff;
+		color: #828282;
+		position: absolute;
+		top: 43px;
+		left: 235px;
+	}
+	
+/*----HEADER PANEL----*/
+
+#headerPan {
+	width: 686px;
+	height: 153px;
+	background: url(images/header.jpg) 0 0 no-repeat;
+	position: relative;
+	margin: 0 auto;
+	padding: 11px 0 0 92px;
+}
+
+	#headerPan ul.leftmenu {
+		width: 87px;
+	}				
+
+		#headerPan ul.leftmenu li {
+			width: 87px;
+			height: 22px;
+			border-bottom: 1px dashed #AECCCA;
+		}
+		
+			#headerPan ul.leftmenu li a {
+				width: 72px;
+				height: 22px;
+				display: block;
+				background: url(images/bullet-normal.gif) 0 7px no-repeat #fff;
+				color: #305E5C;
+				line-height: 22px;
+				text-decoration: none;
+				padding: 0 0 0 15px;
+			}
+			
+				#headerPan ul.leftmenu li a:hover {
+					background: url(images/bullet-hover.gif) 0 7px no-repeat #fff;
+					color: #305E5C;
+					line-height: 22px;
+					text-decoration: none;
+					padding: 0 0 0 15px;
+				}
+				
+			#headerPan ul.left			
