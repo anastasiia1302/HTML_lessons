@@ -13,4 +13,27 @@ function guessNumber(){
 
 
 	if(result == number){
-		alert
+		alert("Вы угадали! Число попыток : " + attempts);
+		location.reload();
+	}
+	
+	else if(result == 0 || isNaN(result)){
+		alert("Вы не ввели число");
+		guessNumber();
+	}
+	
+	else if(result == -1){
+		alert("Спасибо за игру!");
+	}			
+	else{
+
+		if(result > number){
+			alert("Ваше число больше загаданного");
+		}
+		else
+			alert("Ваше число меньше загаданного");
+
+		
+		guessNumber();
+	}
+}			
